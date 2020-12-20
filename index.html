@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+
+    <!-- importing ps5 library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.4/dist/tf.min.js"></script>
+
+    <!-- Title of game -->
+    <title>Jumping Game AI</title>
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Styling for the main bg -->
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            /* Ground */
+            background-image: url("assets/Ground.png");
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Including javascript files -->
+    <script src="neuralNetwork.js"></script>
+    <script src="bot.js"></script>
+    <script src="bar.js"></script>
+    <script src="geneticAlgorithm.js"></script>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
